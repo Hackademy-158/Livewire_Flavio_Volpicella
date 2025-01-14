@@ -22,6 +22,11 @@ class Counter extends Component
         $this->value += $number;
     }
 
+    public function decrementByNumber($number)
+    {
+        $this->value -= $number;
+    }
+
     public function render()
     {
         return view('livewire.counter');

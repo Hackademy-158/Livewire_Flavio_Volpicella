@@ -10,6 +10,7 @@
             <button class="btn btn-danger mx-2" wire:click="decrement">-1</button>
             <button class="btn btn-success mx-2" wire:click="increment">+1</button>
             <button class="btn btn-primary mx-2" wire:click="incrementByNumber(5)">+5</button>
+            <button class="btn btn-primary mx-2" wire:click="decrementByNumber(5)">-5</button>
         </div>
     </div>
 </div>
